@@ -78,11 +78,7 @@ const [isOpening, setIsOpening] = useState(false);
         </section>
       ) : (
         <section className="invitation-content">
-  <div className="corner-decoration corner-top-left">❧</div>
-  <div className="corner-decoration corner-top-right">❧</div>
-  <div className="corner-decoration corner-bottom-left">❧</div>
-  <div className="corner-decoration corner-bottom-right">❧</div>
-          
+
           {/* HERO */}
           <section className="hero-section">
             <span className="top-ornament">✦</span>

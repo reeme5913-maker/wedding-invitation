@@ -322,7 +322,7 @@ font-weight: 500;
  color: #34251b;
  font-weight: 500;
   font-size: clamp(19px, 4vw, 30px);
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 5px;
 
   font-weight: 400;
