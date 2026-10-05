@@ -404,7 +404,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #514034;
  font-weight: 500;
   font-size: 18px;
-padding: 25px;
+padding: 40px;
   letter-spacing: 6px;
 }
 
@@ -632,7 +632,7 @@ padding: 25px;
 .location-button {
   display: inline-block;
 
-  color: #5d4a3a;
+  color: #8a1616;
 
   text-decoration: none;
 
@@ -648,7 +648,7 @@ padding: 25px;
 }
 
 .location-button:hover {
-  color: #2f2117;
+  color: #c72e42;
 
   letter-spacing: 0.5px;
 }
