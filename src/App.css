@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #d8cabb;
-  color: #3b2c21;
+  color: #33251b;
 }
 
 button,
@@ -128,11 +128,10 @@ a {
 }
 
 .invited-small {
-  color: #625143;
-
+   color: #514034;
   font-size: 24px;
   font-style: italic;
-
+font-weight: 500;
   margin-bottom: -2px;
 }
 
@@ -153,10 +152,9 @@ a {
 }
 
 .opening-subtitle {
-  color: #68594c;
-
+  color: #514034;
   font-size: 18px;
-
+font-weight: 500;
   line-height: 1.6;
 
   letter-spacing: 0.5px;
@@ -321,8 +319,8 @@ a {
 }
 
 .names {
-  color: #3e2e22;
-
+ color: #34251b;
+ font-weight: 500;
   font-size: clamp(19px, 4vw, 30px);
 
   letter-spacing: 5px;
@@ -341,8 +339,8 @@ a {
 .wedding-title {
   margin-top: 15px;
 
-  color: #756354;
-
+  color: #5c493a;
+ font-weight: 500;
   font-size: 12px;
 
   letter-spacing: 5px;
@@ -382,10 +380,9 @@ a {
 /* Date */
 
 .date-month {
-  color: #655447;
-
+   color: #514034;
   font-size: 15px;
-
+ font-weight: 500;
   letter-spacing: 5px;
 }
 
@@ -404,16 +401,16 @@ a {
 }
 
 .date-year {
-  color: #655447;
-
+  color: #514034;
+ font-weight: 500;
   font-size: 18px;
 
   letter-spacing: 6px;
 }
 
 .love-message {
-  color: #6d5c4e;
-
+ color: #574438;
+ font-weight: 500;
   font-size: 19px;
 
   line-height: 1.5;
@@ -554,13 +551,13 @@ a {
 }
 
 .countdown strong {
-  font-family: "Playfair Display", serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-  color: #49372a;
+  color: #3d2b1e;
 
   font-size: clamp(32px, 5vw, 50px);
 
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .countdown span {
@@ -962,11 +959,12 @@ a {
     padding: 50px 15px;
   }
 
-  .section-label {
-    font-size: 9px;
-
-    letter-spacing: 2px;
-  }
+ .section-label {
+  color: #5c493a;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
 
   .countdown {
     gap: 10px;
@@ -994,10 +992,12 @@ a {
   }
 
   .time {
-    margin-top: 20px;
-
-    font-size: 55px;
-  }
+  margin-top: 25px;
+  color: #3d2b1e;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(55px, 9vw, 80px);
+  font-weight: 500;
+}
 
   .time span {
     font-size: 19px;
